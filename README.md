@@ -6,8 +6,6 @@ A Simple API to shorten URLS using NodeJS, ExpressJS and MongoDB.
 npm install
 
 # Edit the default.json file in config with your mongoDB Connection String and localUrl
-# Use production.json in production env
-
 
 Endpoints and Functionalities : 
 POST : localURL/ => creates and returns a shortened URL  
