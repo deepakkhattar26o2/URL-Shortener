@@ -1,9 +1,14 @@
 # URL-Shortener
+
 A Simple API to shorten URLS using NodeJS, ExpressJS and MongoDB.
 
-
 # Install dependencies
+
 npm install
+
+# RUN
+
+npm start
 
 # Edit the default.json file in config with your mongoDB Connection String and localUrl
 
