@@ -1,5 +1,5 @@
 
 {
-    "mongoURI" : "mongodb://localhost/URLShortener",
+    "mongoURI" : "",
     "localURL" : "http://localhost:3000"
 }
