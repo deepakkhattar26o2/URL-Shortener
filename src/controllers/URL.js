@@ -8,7 +8,7 @@ exports.shorten = (req, res, next)=>
     const longUrl = req.body.url;
     const localURL = config.get('localURL')
     if(!validurl.isUri(localURL)){
-        return res.send(409).json({Message: 'Invalid Base URL'})
+        return res.status(409).json({Message: 'Invalid Base URL'})
     }
     const urlCode = nanoid.nanoid(6);
     if(validurl.isUri(longUrl)){
